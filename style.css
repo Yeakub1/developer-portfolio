@@ -1,0 +1,274 @@
+* {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+}
+
+/*start Header and navaigtion style */
+.text-color {
+    color: #FD6E0A;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    font-size: 20px;
+}
+
+/* Banner style */
+.banner {
+    margin: 0 200px;
+    align-items: center;
+    display: flex;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.bnner-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.my-photo {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-con {
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Start about section */
+main {
+    max-width: 1140px;
+    justify-content: center;
+}
+
+.about {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-info-container {
+    display: flex;
+}
+
+.info-title {
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 91px;
+}
+
+/* card language */
+.main-language {
+    margin-top: 70px;
+    display: flex;
+    background-color: #FFF8F3;
+}
+
+.sub-language {
+    height: 377px;
+    width: 267px;
+    border-radius: 5px;
+}
+
+.language-title,
+.edu-exp h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.language-decription,
+.edu-exp p {
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    padding: 0 20px 0 0;
+    text-align: justify;
+}
+
+/* Education and Experience section */
+.main-header {
+    margin-bottom: 70px;
+}
+
+.edu-exp {
+    display: flex;
+}
+
+.edu-exp h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.edu-exp-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.edu-exp-dicriptiom {
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.edu-exp,
+.edu {
+    margin-bottom: 30px;
+}
+
+.edu-exp,
+.edu hr {
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.edu-btn {
+    text-align: center;
+}
+
+/* Contact section */
+.contact {
+    display: flex;
+    gap: 20px;
+    background-color: #FFF8F3;
+    padding: 130px 200px 130px 0;
+}
+
+.contact h3 {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    display: block;
+    margin-left: 0;
+}
+
+.contact input {
+    height: 64px;
+    width: 461px;
+    border: 0;
+}
+
+.contact textarea {
+    height: 180px;
+    width: 461px;
+    border: 0;
+}
+
+.contact :placeholder-shown {
+    padding: 0 20px;
+}
+
+.contact p {
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    width: 562px;
+    margin-bottom: 20px;
+}
+
+.contact i {
+    font-size: 28px;
+    padding: 10px;
+    color: #757575;
+}
+
+/* Footer section */
+footer {
+    background-color: #474747;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
