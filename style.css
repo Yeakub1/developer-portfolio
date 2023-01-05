@@ -15,9 +15,14 @@
     border: 0;
     color: #fff;
 }
+.about, .btn-con a{
+    color: black;
+    border: 0;
+}
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .clear {
@@ -26,9 +31,10 @@ a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url(images/header_bg.png),url(images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,left;
+    background-size: auto, 100px 600px;
    
 }
 
@@ -62,6 +68,8 @@ nav ul li {
 
 nav ul li a {
     font-size: 20px;
+    color: black;
+    font-weight: 600;
 }
 
 /* Banner style */
